@@ -1,0 +1,15 @@
+package com.project.uber_clone.ride_service;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class RideServiceApplication {
+
+	public static void main(String[] args) {
+
+		SpringApplication.run(RideServiceApplication.class, args);
+		System.out.println("Lets start the ride !!");
+	}
+
+}
